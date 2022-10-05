@@ -395,8 +395,8 @@ address {
   width: 370px;
   height: 70px;
   padding-top: 27px;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
 
   font-family: "Roboto";
   font-style: normal;
