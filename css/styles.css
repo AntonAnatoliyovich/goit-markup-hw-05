@@ -390,7 +390,20 @@ address {
   width: calc((100% - 60px) / 3);
 }
 
+.hero-image {
+  position: relative;
+}
+
 .hero-text-third {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+
+  text-align: center;
+  
+  color: #FFFFFF;
+  background: rgba(47, 48, 58, 0.8);
 }
 
 .hero-fourth {
