@@ -390,6 +390,10 @@ address {
   width: calc((100% - 60px) / 3);
 }
 
+.hero-text-third {
+  
+}
+
 .hero-fourth {
   background-color: #f5f4fa;
 }
