@@ -790,6 +790,26 @@ address {
 }
 
 .main-item-second {
+  position: relative;
+}
+
+.main-item-second:hover .text-overlay {
+  opacity: 1;
+}
+
+.text-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+
+  left: 0;
+  bottom: 0;
+
+  opacity: 0;
+
+  background-color: rgba(33, 150, 243, 0.9);
+  color: var(--white-color);
 }
 
 .main-works {
