@@ -791,8 +791,8 @@ address {
   overflow: hidden;
 }
 
-.main-item-second:hover .text-overlay,
-.mail-item-second:focus .text-overlay {
+.main-overlay:hover .text-overlay,
+.main-overlay:focus .text-overlay {
   transform: translateY(0);
 }
 
