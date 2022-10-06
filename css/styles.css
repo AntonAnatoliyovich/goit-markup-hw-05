@@ -1,5 +1,35 @@
 /* -------INDEX.HTML------- */
 
+/* -------Modal window------- */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 528px;
+  height: 581px;
+
+  background-color: #ffffff;
+}
+
 /* -------body------- */
 
 body {
@@ -266,6 +296,8 @@ address {
 /* -------main------- */
 
 .hero {
+  position: relative;
+
   background-color: #2f303a;
 
   background-image: linear-gradient(
