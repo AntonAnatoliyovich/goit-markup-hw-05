@@ -449,6 +449,10 @@ address {
   position: relative;
 }
 
+.hero-image {
+  display: block;
+}
+
 .hero-text-third {
   position: absolute;
   width: 370px;
@@ -676,7 +680,7 @@ address {
 
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
-  
+
   margin-bottom: 9px;
 
   font-style: normal;
