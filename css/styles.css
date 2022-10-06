@@ -12,7 +12,7 @@ body {
   --main-color: #212121;
   --second-color: #757575;
   --white-color: #ffffff;
-  --transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 p,
