@@ -155,7 +155,11 @@ address {
   transition: var(--transition);
 }
 
-.header-link::after {
+.current {
+  color: var(--accent-color);
+}
+
+.current::after {
   content: "";
 
   position: absolute;
@@ -804,6 +808,7 @@ address {
 
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--white-color);
+  transition: var(--transition);
 }
 
 .main-works {
