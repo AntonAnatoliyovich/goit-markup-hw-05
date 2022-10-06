@@ -12,7 +12,7 @@ body {
   --main-color: #212121;
   --second-color: #757575;
   --white-color: #ffffff;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 p,
@@ -792,12 +792,12 @@ address {
 
 .main-item-second {
   position: relative;
+  overflow: hidden;
 }
 
 .main-item-second:hover .text-overlay,
 .mail-item-second:focus .text-overlay {
   transform: translateY(0);
-  opacity: 1;
 }
 
 .text-overlay {
@@ -809,8 +809,6 @@ address {
   left: 0;
   bottom: 0;
   transform: translateY(100%);
-
-  opacity: 0;
 
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--white-color);
