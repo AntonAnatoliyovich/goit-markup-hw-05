@@ -794,7 +794,7 @@ address {
 }
 
 .main-item-second:hover .text-overlay {
-  bottom: 0;
+  transform: translateY(0);
   opacity: 1;
 }
 
@@ -805,7 +805,8 @@ address {
   padding: 63px 24px;
 
   left: 0;
-  bottom: -100%;
+  bottom: 0;
+  transform: translateY(100%);
 
   opacity: 0;
 
