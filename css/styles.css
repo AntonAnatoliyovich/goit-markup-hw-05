@@ -36,9 +36,15 @@
   position: absolute;
   right: 0;
   top: 0;
-  
+
   width: 30px;
   height: 30px;
+  border-radius: 50%;
+}
+
+.backdrop-icon-close {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* -------body------- */
