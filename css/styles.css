@@ -656,8 +656,7 @@ address {
 }
 
 .footer-map {
-  color: var(--white-color);
-
+  display: block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -666,6 +665,8 @@ address {
   margin-bottom: 9px;
 
   transition: var(--transition);
+
+  color: var(--white-color);
 }
 
 .footer-map:hover,
@@ -680,8 +681,7 @@ address {
 }
 
 .footer-mail {
-  color: rgba(255, 255, 255, 0.6);
-
+  display: block;
   margin-bottom: 9px;
 
   font-style: normal;
@@ -690,6 +690,8 @@ address {
   letter-spacing: 0.03em;
 
   transition: var(--transition);
+
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-mail:hover,
